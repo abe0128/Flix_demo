@@ -70,6 +70,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="overviewLabel" destination="LFg-mZ-295" id="hym-xw-3tP"/>
+                                            <outlet property="posterImageView" destination="WmQ-MF-1BY" id="OFT-wo-0BP"/>
                                             <outlet property="posterimageView" destination="WmQ-MF-1BY" id="us0-UD-cPF"/>
                                             <outlet property="titleLabel" destination="cDU-wq-rRK" id="54b-XG-wvD"/>
                                             <segue destination="XG5-wL-8vq" kind="show" id="SmO-kR-MvI"/>
@@ -136,7 +137,6 @@
                         <outlet property="backDropImageView" destination="F8f-xs-Bb0" id="kJd-1t-IiM"/>
                         <outlet property="overviewLabel" destination="vZO-aJ-epc" id="kQS-gb-Ghg"/>
                         <outlet property="posterImageView" destination="CTz-hg-cjm" id="ncZ-ru-TCU"/>
-                        <outlet property="previewLabel" destination="vZO-aJ-epc" id="eil-qr-PX9"/>
                         <outlet property="releaseDateLabel" destination="lUg-zE-YL0" id="udf-gv-36M"/>
                         <outlet property="titleLabel" destination="uSh-id-CyY" id="Qjn-FK-V8I"/>
                     </connections>

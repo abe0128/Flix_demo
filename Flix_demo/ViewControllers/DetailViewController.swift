@@ -16,9 +16,6 @@ enum MovieKeys{
 
 class DetailViewController: UIViewController
 {
-
-    
-    
     @IBOutlet weak var backDropImageView: UIImageView!
     
     @IBOutlet weak var posterImageView: UIImageView!
