@@ -169,6 +169,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="TG8-J3-bNs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bgj-dO-YOu">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -213,6 +214,9 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <outlet property="posterImageView" destination="VXV-og-4EV" id="6Po-Jg-pa2"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
