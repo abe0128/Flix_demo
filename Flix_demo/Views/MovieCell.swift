@@ -10,15 +10,16 @@ import UIKit
 
 class MovieCell: UITableViewCell {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel?
     
-    @IBOutlet weak var overviewLabel: UILabel!
+    @IBOutlet weak var overviewLabel: UILabel?
     
-    @IBOutlet weak var posterImageView: UIImageView!
+    @IBOutlet weak var posterImageView: UIImageView?
     
     var movie: Movie!
     {
-        didSet{
+        didSet
+        {
             titleLabel?.text = movie.title
             overviewLabel?.text = movie.overview
             

@@ -11,7 +11,7 @@ import Foundation
 class MovieApiManager {
     
     static let baseUrl = "https://api.themoviedb.org/3/movie/"
-    static let apiKey = "19abbb5538b8ef9816f9f3206294d95f"
+    static let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
     var session: URLSession
     
     init() {
